@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="doctorProcedures.DoctorProceduresEdit">
+  <grid id="2d8ce" binding="dpedit1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="5" y="4" width="891" height="560"/>
+    </constraints>
+    <properties>
+      <background color="-10898231"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f1d96" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="BM Jua" size="22" style="1"/>
+          <labelFor value="4b46b"/>
+          <text value="List of doctors"/>
+        </properties>
+      </component>
+      <grid id="13b68" binding="panel3" layout-manager="GridLayoutManager" row-count="11" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="36" style="1"/>
+        </properties>
+        <border type="none" title="New Doctor">
+          <title-color color="-13947600"/>
+        </border>
+        <children>
+          <component id="b9388" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10898231"/>
+              <foreground color="-13947600"/>
+              <text value="Name Surname"/>
+            </properties>
+          </component>
+          <component id="2195f" class="javax.swing.JTextField" binding="tfName">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2236963"/>
+              <foreground color="-13947600"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="832ad" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13947600"/>
+              <text value="Phone"/>
+            </properties>
+          </component>
+          <component id="72d8b" class="javax.swing.JTextField" binding="tfPhone">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="36"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2236963"/>
+              <disabledTextColor color="-13947600"/>
+              <foreground color="-13947600"/>
+            </properties>
+          </component>
+          <component id="3ddd2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13947600"/>
+              <text value="Gender"/>
+            </properties>
+          </component>
+          <component id="4374b" class="javax.swing.JRadioButton" binding="femaleRadioButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-13947600"/>
+              <text value="Female"/>
+            </properties>
+          </component>
+          <component id="56a9b" class="javax.swing.JRadioButton" binding="maleRadioButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-13947600"/>
+              <text value="Male"/>
+            </properties>
+          </component>
+          <component id="ec4e9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13947600"/>
+              <text value="Doctor Specialty"/>
+            </properties>
+          </component>
+          <component id="10629" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2236963"/>
+              <foreground color="-13947600"/>
+              <model>
+                <item value=" "/>
+                <item value="General Dentist"/>
+                <item value="Pediatric Dentist"/>
+                <item value="Orthodontist"/>
+                <item value="Gum Specialist"/>
+                <item value="Root Canal Specialist"/>
+                <item value="Prosthodontist"/>
+              </model>
+            </properties>
+          </component>
+          <vspacer id="2f2f4">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="c7484" class="javax.swing.JButton" binding="DELETEButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13947600"/>
+              <text value="DELETE"/>
+            </properties>
+          </component>
+          <component id="24da9" class="javax.swing.JTextField" binding="tfDelete">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2236963"/>
+              <foreground color="-13947600"/>
+            </properties>
+          </component>
+          <component id="c5ec2" class="javax.swing.JButton" binding="ADDButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13947600"/>
+              <text value="ADD"/>
+            </properties>
+          </component>
+          <component id="4a0da" class="javax.swing.JButton" binding="UPDATEButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13947600"/>
+              <text value="UPDATE"/>
+            </properties>
+          </component>
+          <component id="aac59" class="javax.swing.JButton" binding="CLEARButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13947600"/>
+              <enabled value="true"/>
+              <foreground color="-13947600"/>
+              <text value="CLEAR"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="29751" binding="panel4" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="464e8" class="javax.swing.JButton" binding="SEARCHButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13947600"/>
+              <text value="Search"/>
+            </properties>
+          </component>
+          <component id="fcb43" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-13947600"/>
+            </properties>
+          </component>
+          <component id="68c11" class="javax.swing.JTextField" binding="tfSearch">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2236963"/>
+              <foreground color="-13947600"/>
+            </properties>
+          </component>
+          <component id="4b46b" class="javax.swing.JComboBox" binding="searchCombo">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="id"/>
+                <item value="name"/>
+                <item value="phone"/>
+                <item value="gender"/>
+                <item value="doctor specialty"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
